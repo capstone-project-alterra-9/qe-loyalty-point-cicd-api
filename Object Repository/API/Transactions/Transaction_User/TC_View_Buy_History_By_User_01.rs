@@ -1,41 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>TC_Registration_01_Admin</name>
+   <name>TC_View_Buy_History_By_User_01</name>
    <tag></tag>
-   <elementGuidId>373a1fdd-139e-4304-9166-b7efc3b8a861</elementGuidId>
+   <elementGuidId>a79bc21a-7a12-4362-bcd3-a3ceb800b94f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;username\&quot;: \&quot;adminwebbaru\&quot;,\n    \&quot;email\&quot;: \&quot;adminweb123@gmail.com\&quot;,\n    \&quot;password\&quot;: \&quot;admin123\&quot;\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;
-}</httpBodyContent>
-   <httpBodyType>text</httpBodyType>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Content-Type</name>
-      <type>Main</type>
-      <value>application/json</value>
-      <webElementGuid>44ab3232-2758-472e-8f44-25b5cec4d75e</webElementGuid>
-   </httpHeaderProperties>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer Token</value>
-      <webElementGuid>80c6304d-89b8-4854-8650-252a72c02ee5</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImlsaGFtYW5qYXlAZ21haWwuY29tIiwiZXhwIjoxNjcxNzEwMjM2LCJ1c2VybmFtZSI6ImlsaGFtYW5qYXkxMjMifQ.pVuJPxwR3JWtlNmXb_dzLv52LZwLjv8ndnU5qSu3okM</value>
+      <webElementGuid>42f53731-7c43-4158-a928-060a52d159b8</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.baseURL}/api/register</restUrl>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${GlobalVariable.baseURL}/api/auth/history</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

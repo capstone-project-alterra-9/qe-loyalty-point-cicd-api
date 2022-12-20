@@ -51,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://be-loyalty-point-production-d38a.up.railway.app'</initValue>
+      <initValue>'https://production-be-loyalty.herokuapp.com/'</initValue>
       <name>baseURL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

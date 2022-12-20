@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>TC_Registration_01_Admin</name>
+   <name>Refresh_Token_01</name>
    <tag></tag>
-   <elementGuidId>373a1fdd-139e-4304-9166-b7efc3b8a861</elementGuidId>
+   <elementGuidId>daaafa0d-d0d0-4f1b-adba-a841c5eead19</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;username\&quot;: \&quot;adminwebbaru\&quot;,\n    \&quot;email\&quot;: \&quot;adminweb123@gmail.com\&quot;,\n    \&quot;password\&quot;: \&quot;admin123\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n\&quot;refreshToken\&quot;: \&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImlsaGFtYW5qYXlAZ21haWwuY29tIiwiZXhwIjoxNjcxNzA1MTk2LCJ1c2VybmFtZSI6ImlsaGFtYW5qYXkxMjMifQ.8BEU0-J_sd4-7td3JcGTkMiDi0dnyKfe1KciDTem-QI\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -21,21 +21,13 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>44ab3232-2758-472e-8f44-25b5cec4d75e</webElementGuid>
-   </httpHeaderProperties>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Authorization</name>
-      <type>Main</type>
-      <value>Bearer Token</value>
-      <webElementGuid>80c6304d-89b8-4854-8650-252a72c02ee5</webElementGuid>
+      <webElementGuid>e5c6f15f-3c3c-4cc9-a9f1-4b8dcdee85ac</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.baseURL}/api/register</restUrl>
+   <restUrl>${GlobalVariable.baseURL}/api/refresh-token</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

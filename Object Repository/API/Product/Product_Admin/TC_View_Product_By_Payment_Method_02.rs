@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>TC_Registration_01_Admin</name>
+   <name>TC_View_Product_By_Payment_Method_02</name>
    <tag></tag>
-   <elementGuidId>373a1fdd-139e-4304-9166-b7efc3b8a861</elementGuidId>
+   <elementGuidId>8721c01e-e423-454c-b17b-eb40e21be545</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;username\&quot;: \&quot;adminwebbaru\&quot;,\n    \&quot;email\&quot;: \&quot;adminweb123@gmail.com\&quot;,\n    \&quot;password\&quot;: \&quot;admin123\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;category\&quot; : \&quot;credits\&quot;,\n    \&quot;name\&quot; : \&quot;credits test32\&quot;,\n    \&quot;description\&quot; : \&quot;Pulsa is credits for eveyone\&quot;,\n    \&quot;price\&quot; : 10000,\n    \&quot;stock\&quot; : 20,\n    \&quot;image\&quot; : \&quot;...\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -21,21 +21,21 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>44ab3232-2758-472e-8f44-25b5cec4d75e</webElementGuid>
+      <webElementGuid>ce099cc1-8ec7-4e24-bba2-fca5f82391dd</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer Token</value>
-      <webElementGuid>80c6304d-89b8-4854-8650-252a72c02ee5</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViQGdtYWlsLmNvbSIsImV4cCI6MTY3MTcwNzA1OSwidXNlcm5hbWUiOiJhZG1pbndlYiJ9.O3wLO_VHQdsV_GW74aGSkIAxVheP6ry4-F2josV0WnM</value>
+      <webElementGuid>9e2e7946-f00e-4d89-a544-e83d96f791a1</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.baseURL}/api/register</restUrl>
+   <restUrl>${GlobalVariable.baseURL}/api/auth/products/method/redeem</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
