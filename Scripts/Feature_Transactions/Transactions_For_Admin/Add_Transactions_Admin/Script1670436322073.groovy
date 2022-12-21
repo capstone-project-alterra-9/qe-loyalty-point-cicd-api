@@ -19,14 +19,47 @@ import org.openqa.selenium.Keys as Keys
 import groovy.json.JsonSlurper as JsonSlurper
 
 // login dulu, ambil token
-response = WS.sendRequest(findTestObject('Object Repository/API/Authorization/Login_Admin/TC_Login_Admin_01'), FailureHandling.CONTINUE_ON_FAILURE)
+response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_01'))
 
-JsonSlurper slurper = new JsonSlurper()
-Map parsedJson = slurper.parseText(response.getResponseText())
-String Token = parsedJson.data.token
-GlobalVariable.global_user = Token
-
-// hit endpoint logout
-response = WS.sendRequest(findTestObject('Object Repository/API/Transactions/Transaction_Admin/TC_View_Transaction_1'))
 WS.verifyResponseStatusCode(response, 200)
+
+response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_02'))
+
+WS.verifyResponseStatusCode(response, 400)
+
+response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_03'))
+
+WS.verifyResponseStatusCode(response, 400)
+
+response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_04'))
+
+WS.verifyResponseStatusCode(response, 200)
+
+response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_05'))
+
+WS.verifyResponseStatusCode(response, 400)
+
+response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_06'))
+
+WS.verifyResponseStatusCode(response, 400)
+
+response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_07'))
+
+WS.verifyResponseStatusCode(response, 200)
+
+response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_08'))
+
+WS.verifyResponseStatusCode(response, 400)
+
+response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_09'))
+
+WS.verifyResponseStatusCode(response, 400)
+
+response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_10'))
+
+WS.verifyResponseStatusCode(response, 200)
+
+response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_11'))
+
+WS.verifyResponseStatusCode(response, 400)
 

@@ -28,8 +28,8 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRvbGFua3V5MTIzNDU2N0BnbWFpbC5jb20iLCJleHAiOjE2NzA3NzI4MzksInVzZXJuYW1lIjoiZG9sYW5wYWRvbGFuMTIzNDUifQ.kBlV2m8dh7kJSMaApuKeVU47zC_ldHI4JKi5D4jv9_Q</value>
-      <webElementGuid>3c1e2ebe-d63a-44dc-818b-95b6e8039eb2</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImlsaGFtYW5qYXlAZ21haWwuY29tIiwiZXhwIjoxNjcxNjUwNjIyLCJ1c2VybmFtZSI6ImlsaGFtYW5qYXkxMjMifQ.9_7tcUSE-XkPGW3RY-tDMkCs7RajjKLJkUzgssAEQJI</value>
+      <webElementGuid>a42b55a9-7620-418c-971a-93964b52fb5c</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>

@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;category\&quot; : \&quot;credits\&quot;,\n    \&quot;name\&quot; : \&quot;credits test32\&quot;,\n    \&quot;description\&quot; : \&quot;Pulsa is credits for eveyone\&quot;,\n    \&quot;price\&quot; : 10000,\n    \&quot;stock\&quot; : 20,\n    \&quot;image\&quot; : \&quot;...\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;category\&quot; : \&quot;credits\&quot;,\n    \&quot;name\&quot; : \&quot;for qe jan dihapus\&quot;,\n    \&quot;description\&quot; : \&quot;Pulsa is credits for eveyone\&quot;,\n    \&quot;price\&quot; : 10000,\n    \&quot;stock\&quot; : 20,\n    \&quot;image\&quot; : \&quot;...\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -28,8 +28,8 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViQGdtYWlsLmNvbSIsImV4cCI6MTY3MTAzNTQ2NCwidXNlcm5hbWUiOiJhZG1pbndlYiJ9.6B_n3Ya3IAZrzOcDRMKiSUKsYQC5uk9FE42MCQvNWSk</value>
-      <webElementGuid>059499e8-bd37-4128-8038-2b2b02684211</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViMTIzQGdtYWlsLmNvbSIsImV4cCI6MTY3MTY1MjA3NSwidXNlcm5hbWUiOiJhZG1pbndlYmJhcnUifQ.Jxi9Sw0mFumaYfGaeU9FLgXHcco00AO5YLsmx7Ie3h0</value>
+      <webElementGuid>b1536c65-8a7d-4ed6-9612-6e335527e62a</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>

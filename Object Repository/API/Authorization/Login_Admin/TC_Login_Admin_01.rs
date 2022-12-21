@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;: \&quot;adminweb@gmail.com\&quot;,\n    \&quot;password\&quot;: \&quot;admin567\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;: \&quot;adminweb123@gmail.com\&quot;,\n    \&quot;password\&quot;: \&quot;admin123\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -28,8 +28,8 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer Token</value>
-      <webElementGuid>f40a2820-49f5-4070-9d45-6e8c3cfa4529</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViMTIzQGdtYWlsLmNvbSIsImV4cCI6MTY3MTY1MjA3NSwidXNlcm5hbWUiOiJhZG1pbndlYmJhcnUifQ.Jxi9Sw0mFumaYfGaeU9FLgXHcco00AO5YLsmx7Ie3h0</value>
+      <webElementGuid>06c6a903-0e82-4d9f-86f2-57e0f303bc1b</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
