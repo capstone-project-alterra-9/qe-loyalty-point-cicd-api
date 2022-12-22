@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;username\&quot;: \&quot;ilhamanjay123\&quot;,\n    \&quot;email\&quot;: \&quot;ilhamanjay\&quot;,\n    \&quot;password\&quot;: \&quot;ilhamanjay\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;username\&quot;: \&quot;mumetwesan\&quot;,\n    \&quot;email\&quot;: \&quot;mumetluraku@gmail.com\&quot;,\n    \&quot;password\&quot;: \&quot;mumetbingit\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

@@ -31,7 +31,7 @@ WS.verifyResponseStatusCode(response, GlobalVariable.status_code2)
 
 response = WS.sendRequest(findTestObject('API/User/User_Admin/TC_Add_User_04'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.status_code5)
+WS.verifyResponseStatusCode(response, GlobalVariable.status_code2)
 
 response = WS.sendRequest(findTestObject('API/User/User_Admin/TC_Add_User_05'))
 

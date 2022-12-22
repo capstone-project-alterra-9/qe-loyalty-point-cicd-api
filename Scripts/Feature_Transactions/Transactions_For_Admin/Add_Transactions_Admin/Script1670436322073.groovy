@@ -39,15 +39,3 @@ response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_
 
 WS.verifyResponseStatusCode(response, GlobalVariable.status_code5)
 
-response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_06'))
-
-WS.verifyResponseStatusCode(response, GlobalVariable.status_code5)
-
-response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_07'))
-
-WS.verifyResponseStatusCode(response, GlobalVariable.status_code5)
-
-response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_08'))
-
-WS.verifyResponseStatusCode(response, GlobalVariable.status_code5)
-

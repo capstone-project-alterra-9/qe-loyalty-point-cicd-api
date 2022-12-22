@@ -19,29 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 response = WS.sendRequest(findTestObject('API/Product/Product_Admin/TC_Update_Product_01'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.status_code)
-
-response = WS.sendRequest(findTestObject('API/Product/Product_Admin/TC_Update_Product_02'))
-
-WS.verifyResponseStatusCode(response, GlobalVariable.status_code2)
-
-response = WS.sendRequest(findTestObject('API/Product/Product_Admin/TC_Update_Product_03'))
-
-WS.verifyResponseStatusCode(response, GlobalVariable.status_code2)
-
-response = WS.sendRequest(findTestObject('API/Product/Product_Admin/TC_Update_Product_04'))
-
 WS.verifyResponseStatusCode(response, GlobalVariable.status_code2)
 
 response = WS.sendRequest(findTestObject('API/Product/Product_Admin/TC_Update_Product_05'))
-
-WS.verifyResponseStatusCode(response, GlobalVariable.status_code)
-
-response = WS.sendRequest(findTestObject('API/Product/Product_Admin/TC_Update_Product_06'))
-
-WS.verifyResponseStatusCode(response, GlobalVariable.status_code2)
-
-response = WS.sendRequest(findTestObject('API/Product/Product_Admin/TC_Update_Product_07'))
 
 WS.verifyResponseStatusCode(response, GlobalVariable.status_code2)
 

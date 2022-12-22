@@ -15,7 +15,7 @@
       <guid>febc2990-3728-484b-8602-dbd767414b84</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Feature_Authorization/Registration/Integration_Registration</testCaseId>
+      <testCaseId>Test Cases/Feature_Integration/Integration_Registration</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

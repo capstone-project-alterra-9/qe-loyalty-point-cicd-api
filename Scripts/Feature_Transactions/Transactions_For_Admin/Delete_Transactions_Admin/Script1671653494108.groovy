@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Delete_Transactions_01'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.status_code)
+WS.verifyResponseStatusCode(response, GlobalVariable.status_code5)
 
 response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Delete_Transactions_02'))
 

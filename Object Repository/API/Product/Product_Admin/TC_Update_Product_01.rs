@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;category\&quot; : \&quot;credits\&quot;,\n    \&quot;name\&quot; : \&quot;test1\&quot;,\n    \&quot;description\&quot; : \&quot;Pulsa for people test 4\&quot;,\n    \&quot;price\&quot; : 10000,\n    \&quot;stock\&quot; : 1,\n    \&quot;image\&quot; : \&quot;...\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;category\&quot; : \&quot;credits\&quot;,\n    \&quot;name\&quot; : \&quot;updated happy for your life\&quot;,\n    \&quot;description\&quot; : \&quot;happy asik ajalah\&quot;,\n    \&quot;price\&quot; : 20000,\n    \&quot;stock\&quot; : 2,\n    \&quot;image\&quot; : \&quot;...\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -28,14 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViQGdtYWlsLmNvbSIsImV4cCI6MTY3MTA5MjQ4OCwidXNlcm5hbWUiOiJhZG1pbndlYiJ9.OFvNHKD24DToZTx3zaQkxW3JSXpdmMfbRzjoBL2skuU</value>
-      <webElementGuid>e9f073b4-690e-4fea-a428-e56a15aff61b</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViMTIzQGdtYWlsLmNvbSIsImV4cCI6MTY3MTY5NDkyNywidXNlcm5hbWUiOiJhZG1pbndlYmJhcnUifQ.8X3H3a4oDzkGwe57cozgNY-EykiNtbCtdKMgvidzXk0</value>
+      <webElementGuid>fd54f5a9-37f5-484c-b5b4-68ceaa116741</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GlobalVariable.baseURL}/api/auth/products/1147d903-f1a1-4fe5-b804-733bfcb02436</restUrl>
+   <restUrl>${GlobalVariable.baseURL}/api/auth/products/9c99a9f3-b96c-4ba0-98be-237185fef4b7</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

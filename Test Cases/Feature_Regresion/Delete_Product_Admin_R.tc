@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Update_Transactions_Admin</name>
+   <name>Delete_Product_Admin_R</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>1543348e-638d-4faf-8aed-58bcb33b2b6c</testCaseGuid>
+   <testCaseGuid>abfca308-c58d-4097-83d3-54379a2a4fff</testCaseGuid>
 </TestCaseEntity>

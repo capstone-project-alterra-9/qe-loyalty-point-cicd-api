@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;username\&quot; : \&quot;testtest15\&quot;,\n    \&quot;email\&quot; : \&quot;testmail15@gmail.com\&quot;,\n    \&quot;password\&quot; : \&quot;testpassword04\&quot;,\n    \&quot;points\&quot; : 20000\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;username\&quot; : \&quot;testforqe01\&quot;,\n    \&quot;email\&quot; : \&quot;testqe01@gmail.com\&quot;,\n    \&quot;password\&quot; : \&quot;testforqe\&quot;,\n    \&quot;points\&quot; : 20000\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -28,8 +28,8 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViQGdtYWlsLmNvbSIsImV4cCI6MTY3MTEwOTkzOSwidXNlcm5hbWUiOiJhZG1pbndlYiJ9.N3bThC_7jHNt3BZHAap73bTeUHiJCzQwb-qHzkutnpE</value>
-      <webElementGuid>c03b1c36-6923-47de-8b89-a4fc7beb36d3</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViMTIzQGdtYWlsLmNvbSIsImV4cCI6MTY3MTg2MDUyNywidXNlcm5hbWUiOiJhZG1pbndlYmJhcnUifQ.a7VZgDn_NYw7y8BfuL3cxaItHiKyPClTRAdsUFVTJR4</value>
+      <webElementGuid>da8b96bf-ce04-43e3-a582-f7ab31bf0553</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>

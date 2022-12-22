@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;category\&quot; : \&quot;credits\&quot;,\n    \&quot;name\&quot; : \&quot;product1-updated5 test 1\&quot;,\n    \&quot;description\&quot; : \&quot;Pulsa for people \&quot;,\n    \&quot;price\&quot; :  ,\n    \&quot;stock\&quot; : 5,\n    \&quot;image\&quot; : \&quot;...\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;category\&quot; : \&quot;credits\&quot;,\n    \&quot;name\&quot; : \&quot;product1-updated5 test 5\&quot;,\n    \&quot;description\&quot; : \&quot;Pulsa for people \&quot;,\n    \&quot;price\&quot; :  ,\n    \&quot;stock\&quot; : 5,\n    \&quot;image\&quot; : \&quot;...\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -35,7 +35,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GlobalVariable.baseURL}/api/auth/products/1147d903-f1a1-4fe5-b804-733bfcb02436</restUrl>
+   <restUrl>${GlobalVariable.baseURL}/api/auth/products/4e010a81-ef16-4064-bd5c-20d202afada9</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

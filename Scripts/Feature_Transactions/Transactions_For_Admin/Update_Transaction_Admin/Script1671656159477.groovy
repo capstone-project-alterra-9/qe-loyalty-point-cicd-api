@@ -21,10 +21,6 @@ response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_
 
 WS.verifyResponseStatusCode(response, GlobalVariable.status_code)
 
-response = WS.sendRequest(findTestObject('null'))
-
-WS.verifyResponseStatusCode(response, GlobalVariable.status_code)
-
 response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Update_Transactions_02'))
 
 WS.verifyResponseStatusCode(response, GlobalVariable.status_code3)

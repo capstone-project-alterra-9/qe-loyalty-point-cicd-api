@@ -24,9 +24,9 @@ WS.verifyResponseStatusCode(response, 200)
 
 response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_View_Redeem_Transaction_02'))
 
-WS.verifyResponseStatusCode(response, 400)
+WS.verifyResponseStatusCode(response, 404)
 
 response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_View_Redeem_Transaction_03'))
 
-WS.verifyResponseStatusCode(response, 400)
+WS.verifyResponseStatusCode(response, 404)
 

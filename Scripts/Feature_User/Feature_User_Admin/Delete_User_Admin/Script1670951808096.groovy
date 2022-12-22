@@ -27,5 +27,5 @@ WS.verifyResponseStatusCode(response, GlobalVariable.status_code3)
 
 response = WS.sendRequest(findTestObject('API/User/User_Admin/TC_Delete_User_03'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.status_code5)
+WS.verifyResponseStatusCode(response, GlobalVariable.status_code3)
 

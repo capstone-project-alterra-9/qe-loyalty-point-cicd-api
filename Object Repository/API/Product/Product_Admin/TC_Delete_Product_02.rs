@@ -24,14 +24,14 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViQGdtYWlsLmNvbSIsImV4cCI6MTY3MTA5NTM4MiwidXNlcm5hbWUiOiJhZG1pbndlYiJ9.FBmM2P7AikWbp_uL_ukl5rJX63wTKsDk9oTXToMqncw</value>
-      <webElementGuid>3f5f501f-98df-4cb8-845f-f8fe700ef631</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViMTIzQGdtYWlsLmNvbSIsImV4cCI6MTY3MTg1OTEzMiwidXNlcm5hbWUiOiJhZG1pbndlYmJhcnUifQ.Kwyw8ejWtQL6-Vtg30XwMLY0SO6i4PjfmcG1yeUEeJs</value>
+      <webElementGuid>6d2f0d83-bc49-4fe3-9ff3-319bb2cfe1f5</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.baseURL}/api/auth/products/24cb0eda-157e-481a-89f9-cdbfef14e4ed</restUrl>
+   <restUrl>${GlobalVariable.baseURL}/api/auth/products/4e010a81-ef16-4064-bd5c-20d202afada9</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -19,25 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 response = WS.sendRequest(findTestObject('API/User/User_Admin/TC_Update_User_01'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.status_code)
+WS.verifyResponseStatusCode(response, GlobalVariable.status_code2)
 
 response = WS.sendRequest(findTestObject('API/User/User_Admin/TC_Update_User_02'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.status_code)
+WS.verifyResponseStatusCode(response, GlobalVariable.status_code2)
 
 response = WS.sendRequest(findTestObject('API/User/User_Admin/TC_Update_User_03'))
 
 WS.verifyResponseStatusCode(response, GlobalVariable.status_code2)
-
-response = WS.sendRequest(findTestObject('API/User/User_Admin/TC_Update_User_04'))
-
-WS.verifyResponseStatusCode(response, GlobalVariable.status_code5)
-
-response = WS.sendRequest(findTestObject('API/User/User_Admin/TC_Update_User_05'))
-
-WS.verifyResponseStatusCode(response, GlobalVariable.status_code5)
-
-response = WS.sendRequest(findTestObject('API/User/User_Admin/TC_Update_User_06'))
-
-WS.verifyResponseStatusCode(response, GlobalVariable.status_code5)
 

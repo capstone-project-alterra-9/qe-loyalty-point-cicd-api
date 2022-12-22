@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;category\&quot; : \&quot;credits\&quot;,\n    \&quot;name\&quot; : \&quot;product1-updated3 test4\&quot;,\n    \&quot;description\&quot; : \&quot; \&quot;,\n    \&quot;price\&quot; : 40000,\n    \&quot;stock\&quot; : 4,\n    \&quot;image\&quot; : \&quot;...\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;category\&quot; : \&quot;credits\&quot;,\n    \&quot;name\&quot; : \&quot;product1-updated3 test7\&quot;,\n    \&quot;description\&quot; : \&quot; \&quot;,\n    \&quot;price\&quot; : 40000,\n    \&quot;stock\&quot; : 4,\n    \&quot;image\&quot; : \&quot;...\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -28,14 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViQGdtYWlsLmNvbSIsImV4cCI6MTY3MTA5MjQ4OCwidXNlcm5hbWUiOiJhZG1pbndlYiJ9.OFvNHKD24DToZTx3zaQkxW3JSXpdmMfbRzjoBL2skuU</value>
-      <webElementGuid>734c4534-7727-45a5-a11e-7b88670a0d3e</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViMTIzQGdtYWlsLmNvbSIsImV4cCI6MTY3MTY5NDkyNywidXNlcm5hbWUiOiJhZG1pbndlYmJhcnUifQ.8X3H3a4oDzkGwe57cozgNY-EykiNtbCtdKMgvidzXk0</value>
+      <webElementGuid>426176f0-e911-4bb7-8208-f263019722f1</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GlobalVariable.baseURL}/api/auth/products/1147d903-f1a1-4fe5-b804-733bfcb02436</restUrl>
+   <restUrl>${GlobalVariable.baseURL}/api/auth/products/4e010a81-ef16-4064-bd5c-20d202afada9</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

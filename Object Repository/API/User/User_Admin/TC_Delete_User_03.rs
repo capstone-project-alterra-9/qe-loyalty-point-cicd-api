@@ -24,14 +24,14 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViQGdtYWlsLmNvbSIsImV4cCI6MTY3MTEyMzExMSwidXNlcm5hbWUiOiJhZG1pbndlYiJ9.CXAGMgI_vyxQEe8r_WUdmn6FkQ8uv4A-0UXEWBmWk1o</value>
-      <webElementGuid>e498c751-06f2-4a88-942b-bf46b1d71761</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViMTIzQGdtYWlsLmNvbSIsImV4cCI6MTY3MTg2MDUyNywidXNlcm5hbWUiOiJhZG1pbndlYmJhcnUifQ.a7VZgDn_NYw7y8BfuL3cxaItHiKyPClTRAdsUFVTJR4</value>
+      <webElementGuid>22d0930f-8bd6-4ac5-8b90-71029fe0cd29</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${GlobalVariable.baseURL}/api/users/b1f299f6-7ac3-413b-8ff1</restUrl>
+   <restUrl>${GlobalVariable.baseURL}/api/d5b4ad02-042f-4d6c-a6ff-19b07ad53093</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

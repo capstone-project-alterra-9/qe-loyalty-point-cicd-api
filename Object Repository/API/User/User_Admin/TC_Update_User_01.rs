@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;username\&quot; : \&quot;testupdate2\&quot;,\n    \&quot;email\&quot; : \&quot;testmailupdate@gmail.com\&quot;,\n    \&quot;password\&quot; : \&quot;testpassword01update\&quot;,\n    \&quot;points\&quot; : 200000,\n    \&quot;status\&quot; : \&quot;active\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;username\&quot;:\&quot;mumetwesan22\&quot;,\n    \&quot;email\&quot;:\&quot;mumetluraku22@gmail.com\&quot;,\n    \&quot;password\&quot;:\&quot;mumetbangerluraku\&quot;\n    \&quot;points\&quot; : 200000,\n    \&quot;status\&quot; : \&quot;active\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -28,14 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViMTIzQGdtYWlsLmNvbSIsImV4cCI6MTY3MTgxOTIwNSwidXNlcm5hbWUiOiJhZG1pbndlYmJhcnUifQ.ejSdUoHBIP1S6Mo_2GuUYtlxqyBXjRLAb8FM4_vHWp8</value>
-      <webElementGuid>6c9cbd5c-5f7b-4624-806a-6e70dc331012</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViMTIzQGdtYWlsLmNvbSIsImV4cCI6MTY3MTg2MDUyNywidXNlcm5hbWUiOiJhZG1pbndlYmJhcnUifQ.a7VZgDn_NYw7y8BfuL3cxaItHiKyPClTRAdsUFVTJR4</value>
+      <webElementGuid>d9153461-a9d4-4fca-a723-822b47a4885f</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GlobalVariable.baseURL}/api/users/93615ef0-d109-4fee-870d-2d79bdc516b2</restUrl>
+   <restUrl>${GlobalVariable.baseURL}/api/users/8243b1b6-625b-4cc2-a51c-a90c47bf5a05</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
