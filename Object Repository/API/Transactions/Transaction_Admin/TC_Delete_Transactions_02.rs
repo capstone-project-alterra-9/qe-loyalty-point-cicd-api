@@ -16,14 +16,14 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViQGdtYWlsLmNvbSIsImV4cCI6MTY3MDc3NjExNCwidXNlcm5hbWUiOiJhZG1pbndlYiJ9.q-q8xr2deJQOm2w-FRcEa2mfutUC0yp1_uHa0ng7Las</value>
-      <webElementGuid>a1de626d-3979-4c43-8f40-ebf19c7586f9</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViMTIzQGdtYWlsLmNvbSIsImV4cCI6MTY3MTgxOTIwNSwidXNlcm5hbWUiOiJhZG1pbndlYmJhcnUifQ.ejSdUoHBIP1S6Mo_2GuUYtlxqyBXjRLAb8FM4_vHWp8</value>
+      <webElementGuid>8b303f0c-d554-4029-8279-1ffe293b6f3c</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.baseURL}/api/auth/transactions/81183a70-4547-4f78-9f44-8db64b5e5212</restUrl>
+   <restUrl>${GlobalVariable.baseURL}/api/auth/transactions/3b34830f-b85d-4ca7-b434-65aa758fbc2c</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

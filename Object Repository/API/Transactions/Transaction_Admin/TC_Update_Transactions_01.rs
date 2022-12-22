@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;paymentMethod\&quot; : \&quot;redeem\&quot;,\n    \&quot;userID\&quot; : \&quot;93615ef0-d109-4fee-870d-2d79bdc516b2\&quot;,\n    \&quot;productID\&quot; : \&quot;1147d903-f1a1-4fe5-b804-733bfcb02436\&quot;,\n    \&quot;identifierNum\&quot; : \&quot;081234567890\&quot;,\n    \&quot;status\&quot; : \&quot;success\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;paymentMethod\&quot; : \&quot;redeem\&quot;,\n    \&quot;userID\&quot; : \&quot;93615ef0-d109-4fee-870d-2d79bdc516b2\&quot;,\n    \&quot;productID\&quot; : \&quot;4ac4afdb-5c97-474f-a8d8-0184491b89ee\&quot;,\n    \&quot;identifierNum\&quot; : \&quot;081234567890\&quot;,\n    \&quot;status\&quot; : \&quot;success\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -28,14 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImlsaGFtYW5qYXkiLCJleHAiOjE2NzA3NzY5NzEsInVzZXJuYW1lIjoiaWxoYW1hbmpheTEyMyJ9.rdA-scW7Y1pfiUXgLwpWnsB0LkOdNYQjTEtV6hpUKeI</value>
-      <webElementGuid>eb27f4e4-0b54-47ce-9706-e7943aad4758</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViMTIzQGdtYWlsLmNvbSIsImV4cCI6MTY3MTY5MjM0NywidXNlcm5hbWUiOiJhZG1pbndlYmJhcnUifQ.UOIKw3v8P9hLt_Gzsh1Aiz6FnFduVQPEuX9p7hp0zlk</value>
+      <webElementGuid>b595757b-1057-4e31-8b15-2c220ed2051b</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GlobalVariable.baseURL}/api/auth/transactions/3da708a3-3428-4c87-a31c-ef70ba9eb1e1</restUrl>
+   <restUrl>${GlobalVariable.baseURL}/api/auth/transactions/bcc806e1-8e61-44fa-939d-7ee54cbdbeb1</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

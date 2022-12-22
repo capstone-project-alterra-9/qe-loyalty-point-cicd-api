@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;paymentMethod\&quot; : \&quot;redeem\&quot;,\n    \&quot;userID\&quot; : \&quot;e8482690-852d-43f5-8b51-4c7625d36c24\&quot;,\n    \&quot;productID\&quot; : \&quot;1147d903-f1a1-4fe5-b804-733bfcb02436\&quot;,\n    \&quot;identifierNum\&quot; : \&quot;-08765432100\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;paymentMethod\&quot; : \&quot;redeem\&quot;,\n    \&quot;userID\&quot; : \&quot;93615ef0-d109-4fee-870d-2d79bdc516b2\&quot;,\n    \&quot;productID\&quot; : \&quot;4ac4afdb-5c97-474f-a8d8-0184491b89ee\&quot;,\n    \&quot;identifierNum\&quot; : \&quot;-08765432100\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -28,8 +28,8 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViQGdtYWlsLmNvbSIsImV4cCI6MTY3MDY5ODcyMCwidXNlcm5hbWUiOiJhZG1pbndlYiJ9.rQnmHV1hNvGBonEVvzibrXQMnhl2uNhQQHL90HyngGo</value>
-      <webElementGuid>3ac086e3-adee-4e19-8ed2-26cee7cb9bd3</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWlud2ViMTIzQGdtYWlsLmNvbSIsImV4cCI6MTY3MTY1MzYwNSwidXNlcm5hbWUiOiJhZG1pbndlYmJhcnUifQ.Qg4_3BE-QFkGLHf-Bgm5wnaMS0uKC-Nv8tc8X2FH_R0</value>
+      <webElementGuid>ff449686-5db9-4406-8dfd-26235f9a93d0</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>

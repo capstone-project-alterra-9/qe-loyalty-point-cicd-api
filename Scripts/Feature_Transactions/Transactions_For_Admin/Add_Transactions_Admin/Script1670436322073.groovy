@@ -21,45 +21,33 @@ import groovy.json.JsonSlurper as JsonSlurper
 // login dulu, ambil token
 response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_01'))
 
-WS.verifyResponseStatusCode(response, 200)
+WS.verifyResponseStatusCode(response, GlobalVariable.status_code)
 
 response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_02'))
 
-WS.verifyResponseStatusCode(response, 400)
+WS.verifyResponseStatusCode(response, GlobalVariable.status_code5)
 
 response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_03'))
 
-WS.verifyResponseStatusCode(response, 400)
+WS.verifyResponseStatusCode(response, GlobalVariable.status_code5)
 
 response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_04'))
 
-WS.verifyResponseStatusCode(response, 200)
+WS.verifyResponseStatusCode(response, GlobalVariable.status_code5)
 
 response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_05'))
 
-WS.verifyResponseStatusCode(response, 400)
+WS.verifyResponseStatusCode(response, GlobalVariable.status_code5)
 
 response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_06'))
 
-WS.verifyResponseStatusCode(response, 400)
+WS.verifyResponseStatusCode(response, GlobalVariable.status_code5)
 
 response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_07'))
 
-WS.verifyResponseStatusCode(response, 200)
+WS.verifyResponseStatusCode(response, GlobalVariable.status_code5)
 
 response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_08'))
 
-WS.verifyResponseStatusCode(response, 400)
-
-response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_09'))
-
-WS.verifyResponseStatusCode(response, 400)
-
-response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_10'))
-
-WS.verifyResponseStatusCode(response, 200)
-
-response = WS.sendRequest(findTestObject('API/Transactions/Transaction_Admin/TC_Add_Transaction_By_Admin_11'))
-
-WS.verifyResponseStatusCode(response, 400)
+WS.verifyResponseStatusCode(response, GlobalVariable.status_code5)
 
